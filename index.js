@@ -20,3 +20,15 @@ const length = arr.length;
 
 for (let i = 0; i < length; i++) {
   console.log(arr[i]);}
+
+
+  //Bai 4
+
+  const arr = [5, 1, 4, 2, 7];
+let tong = 0;
+
+for (let i = 0; i < arr.length; i++) {
+  tong += arr[i];
+}
+
+console.log("Tổng các phần tử trong mảng là:", tong);
